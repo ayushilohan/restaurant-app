@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Cafe Mocha",
+      "description": "A cozy cafe serving premium coffee.",
+      "location": "Downtown"
+    },
+    {
+      "id": 2,
+      "name": "Sushi Express",
+      "description": "Fresh and fast sushi.",
+      "location": "Uptown"
+    }
+  ]
+  
