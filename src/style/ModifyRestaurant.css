@@ -1,0 +1,10 @@
+.modify-container {
+    width: 400px;
+    margin: 30px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.modify-container h1{
+    margin: 5px;
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import HomePage from './HomePage';
+import '../style/ModifyRestaurant.css'
 
 const EditRestaurantPage = () => {
   const { id } = useParams();
@@ -27,6 +28,7 @@ const EditRestaurantPage = () => {
   return (
     <div>
     <HomePage />
+    <div className='modify-container'>
       <h1>Edit Restaurant</h1>
       <form onSubmit={handleSubmit}>
         <label> Name:
@@ -34,7 +36,7 @@ const EditRestaurantPage = () => {
         </label>
         <br />
         <label> Description:
-          <textarea name="description" value={restaurant.description} onChange={handleChange} required/>
+          <input type='text' name="description" value={restaurant.description} onChange={handleChange} required/>
         </label>
         <br />
         <label> Location:
@@ -43,6 +45,7 @@ const EditRestaurantPage = () => {
         <br />
         <button type="submit">Update</button>
       </form>
+      </div>
     </div>
   );
 };

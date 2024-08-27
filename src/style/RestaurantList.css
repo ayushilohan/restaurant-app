@@ -1,0 +1,17 @@
+.list-container {
+    display: flex;
+}
+
+.list-item {
+    width: 200px;
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.list-item button{
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 5px;
+}
